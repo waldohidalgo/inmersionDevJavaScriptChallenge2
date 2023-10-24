@@ -53,7 +53,7 @@
         Swal.fire({
           title: "Has adivinado el número",
           text: `El número adivinado es el: ${numeroAleatorio}`,
-          imageUrl: "../img/minions.gif", // URL de la imagen
+          imageUrl: window.location.href + "img/minions.gif", // URL de la imagen
           imageAlt: "Success", // Texto alternativo de la imagen
           showCancelButton: false, // Sin botón de cancelar
           confirmButtonText: "OK", // Texto del botón OK
